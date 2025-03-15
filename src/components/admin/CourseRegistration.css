@@ -1,0 +1,102 @@
+.table-container-courseregisterview {
+  position: relative;
+  top:0px;
+  padding: 20px;
+  margin-left: 100px;
+  width: 1300px;
+  background-color: #343232;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.viewcourseregister {
+  text-align: center;
+  position: relative;
+  top:-10px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.filter-container {
+  margin-top: -60px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.filter-dropdown {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #881111;
+  font-size: 16px;
+  outline: none;
+  background-color: #000000;
+}
+
+.table-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.course-registrations-table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  top:50px;
+}
+
+.course-registrations-table th,
+.course-registrations-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-registrations-table th {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.course-registrations-table td {
+  color: #fffcfc;
+  vertical-align: middle;
+}
+
+.course-registrations-table tr:hover {
+  background-color: #e91e63;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background: #444;
+  border-radius: 4px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background-color: #e91e63;
+  border-radius: 4px;
+}
+
+@media (max-width: 1400px) {
+  .table-container-courseregisterview {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

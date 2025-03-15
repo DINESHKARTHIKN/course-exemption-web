@@ -1,0 +1,64 @@
+.applyforcourseexemptions{
+    position:absolute;
+    left:300px;
+    top:150px;
+    color:#1976d2;
+}
+.selectthree{
+    position:absolute;
+    top:230px;
+    left:500px;
+}
+.course-selection {
+    position: absolute;
+    top: 290px;
+    left:500px;
+    height:100px;
+    width:700px;
+    overflow:scroll;
+  }
+  
+
+  .course-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+ 
+  .coursescompletedbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .electivecoursetoexempts{
+   position:absolute;
+   top:500px;
+   left:500px;
+   font-size: larger;
+   font-weight: 700;
+}
+ .electivecoursess{
+    position:absolute;
+    left:760px;
+    top:499px;
+    width:300px;
+    height: 30px;
+ }
+ .btnss{
+    position:absolute;
+    top:600px;
+    left:750px;
+    color: azure;
+ }
+.btnss:hover{
+    background-color: #1976d2;
+}
+.form-containerss{
+  margin-left:600px;
+  width:350px;
+}
+.exempstatus{
+  position:relative;
+  left:70px;
+}

@@ -1,0 +1,38 @@
+.student-dashboard{
+    position:absolute;
+    top:25px;
+    color:#ffffff;
+    left:100px;
+    font-size: 1.9rem;
+}
+.nav-link1{
+    position:absolute;
+    top:45px;
+    font-size:1.3rem;
+    left:750px;
+    color:white;
+}
+.nav-link2{
+    position:absolute;
+    top:45px;
+    font-size:1.3rem;
+    left:1030px;
+    color:white;
+}
+
+.btnstudentlogout{
+    position:absolute;
+    top:32px;
+    font-size:1.3rem;
+    left:1370px;
+    border-color: #1976d2;
+}
+.btnstudentlogout:hover{
+    color: #1976d2;
+    
+}
+
+
+.boards{
+    color:#1976d2;
+}

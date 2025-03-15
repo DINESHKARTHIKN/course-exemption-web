@@ -1,0 +1,98 @@
+.one-Credit-Course-Exemption-System-for-login-admin{
+  position:absolute;
+  top:40px;
+  left:500px;
+}
+
+.login-container-adminlogin {
+    font-family: 'Arial', sans-serif;
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 30px;
+    margin-left: 550px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 400px;
+  }
+  
+  .AdminLogin {
+    text-align: center;
+    color: #e91e63;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .status-message.error-adminlogin {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .form-group-adminlogin {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-group-adminlogin label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+  }
+  
+  .form-group-adminlogin input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .form-group-adminlogin input:focus {
+    outline: none;
+    border-color: #e91e63;
+    box-shadow: 0 0 5px #e91e63;
+  }
+  
+  .btnadminlogin {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnadminlogin:hover {
+    background-color: #c2185b;
+  }
+  
+  .btnadminlogin:active {
+    background-color: #a31545;
+  }
+  
+  .login-link-admin {
+    left: 200px;
+    position: relative;
+    top: 10px;
+  }
+  .login-link-admin-forstudent{
+    position:relative;
+    top:90px;
+    right:300px;
+  }
+  .login-link{
+    color:#c2185b;
+  }
+  .login-link:hover {
+    color:#ffffff;
+  }
+  

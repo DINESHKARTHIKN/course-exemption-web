@@ -1,0 +1,82 @@
+.table-container-excemption-request-view {
+    padding: 20px;
+    margin: 20px auto;
+    width: 1300px;
+    background-color: #393838;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left:105px;
+    margin-top:160px;
+    height:450px;
+    overflow: scroll;
+  }
+  
+  .exemption-request {
+    text-align: center;
+    margin-bottom: 20px;
+    position:fixed;
+    left:650px;
+    top:120px;
+  }
+  
+  .excemption-request-table {
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .th-studenta, .th-coursesa, .th-electivea, .th-statusa, .th-actionsa {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    
+    color:  #e91e63;
+  }
+  
+  .tda-student, .td-coursesa, .td-electivea, .td-statusa, .td-actionsa {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  .btnapprove {
+    padding: 6px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .btnapprove:hover {
+    background-color: #45a049;
+  }
+  
+  .btn.reject {
+    background-color: #f44336;
+  }
+  
+  .btn.reject:hover {
+    background-color: #e53935;
+  }
+  
+  .status-message {
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .success {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .error {
+    background-color: #f44336;
+    color: white;
+  }
+  

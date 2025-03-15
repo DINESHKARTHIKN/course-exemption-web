@@ -1,0 +1,98 @@
+.one-Credit-Course-Exemption-System-for-register-student{
+    position:absolute;
+   top:40px;
+   left:535px;
+}
+
+.login-container-studentregister {
+    font-family: 'Arial', sans-serif;
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 30px;
+    margin: 0 auto; /* Center the container */
+    width: 400px; /* Set a fixed width to match the login form */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 400px;
+    margin-left:550px;
+}
+
+.StudentRegistration {
+    text-align: center;
+    color:  #2196f3; /* Changed color to green */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.status-message.error-studentregister {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form-group-studentregister {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group-studentregister label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+}
+
+.form-group-studentregister input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+.form-group-studentregister input:focus {
+    outline: none;
+    border-color:  #2196f3; /* Changed border color to green */
+    box-shadow: 0 0 5px  #2196f3; /* Changed focus color to green */
+}
+
+.btnstudentregister {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color:  #2196f3; /* Changed button color to green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnstudentregister:hover {
+    background-color: #2196f3; /* Darker green on hover */
+}
+
+.btnstudentregister:active {
+    background-color: #2196f3; /* Even darker green on active */
+}
+
+.login-link-student {
+    margin-left: 220px;
+    position: relative;
+    top: 10px;
+}
+
+.login-link-student-register{
+    margin-left:320px;
+    position:relative;
+    top:20px;
+    color: #2196f3;
+}
+.login-link-student-register:hover{
+    color:white;
+}

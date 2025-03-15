@@ -1,0 +1,111 @@
+.form-scontainer{
+    background-color:  #343232;
+    position:absolute;
+    top:180px;
+    height: 500px;
+    width:850px;
+    left:330px;
+    border-radius: 30px;
+}
+
+.newnew{
+    color: #e91e63;
+}
+
+.add-new-course{
+    position: relative;
+    left:320px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.form-group-Course-name{
+    position:relative;
+    top:30px;
+    left:50px;
+    font-size:large;
+    font-weight: 500;
+}
+
+.textboxlargedescription{
+    height:50px;
+    width: 500px;
+}
+
+.textboxlarge{
+    position: relative;
+    top:-2px;
+    width:300px;
+    height:25px;   
+    
+}
+
+
+
+.form-group-Course-description{
+    position:relative;
+    top:80px;
+    left:50px;
+    font-size:large;
+    font-weight: 500;
+    
+}
+
+.Course-name-description{
+    position: relative;
+    bottom:20px;
+    left:18px;
+}
+
+.form-group-Course-image{
+    position:relative;
+    top:140px;
+    left:45px;
+    font-size:large;
+    font-weight: 500;
+}
+
+.btnaddcourse{
+    position:relative;
+    top:200px;
+    left:350px;
+}
+
+.textboxlarge:hover,
+.textboxlarge:focus {
+    border-color: #e91e63; 
+    outline: none;
+}
+
+.textboxlargedescription:hover,
+.textboxlargedescription:focus {
+    border-color: #e91e63; 
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnaddcourse:hover{
+    background-color: #e91e63;
+    border-color: #e91e63;
+}

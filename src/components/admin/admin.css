@@ -1,0 +1,51 @@
+.Admin-Dashboard{
+    position:absolute;
+    top:10px;
+    color:#ffffff;
+    left:100px;
+    font-size: 1.9rem;
+}
+.nav-linka{
+    position:absolute;
+    top:45px;
+    font-size:1.3rem;
+    left:650px;
+    color:white;
+}
+.nav-linb{
+    position:absolute;
+    top:45px;
+    font-size:1.3rem;
+    left:830px;
+    color:white;
+}
+.nav-linkc{
+    position:absolute;
+    top:45px;
+    font-size:1.3rem;
+    left:1090px;
+    color:white;
+}
+.adminlogout{
+    position:absolute;
+    top:32px;
+    font-size:1.3rem;
+    left:1370px;
+    border-color: #e91e63;
+}
+.adminlogout:hover{
+    color:#e91e63;
+    border-color: #e91e63; 
+}
+.nav-linka:hover {
+    color:#e91e63;
+}
+.nav-linb:hover {
+    color:#e91e63;
+}
+.nav-linkc:hover {
+    color:#e91e63;
+}
+.board{
+    color:#e91e63;
+}
